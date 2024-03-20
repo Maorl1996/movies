@@ -1,0 +1,53 @@
+$background-color-button: #ffffff;
+
+.content {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+
+  @media (max-width: 550px) {
+    flex-direction: column;
+  }
+}
+
+.rigthSide {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.arrow {
+  transform: rotate(180deg);
+}
+
+.button {
+  background-color: $background-color-button; /* Green */
+  border: 1px solid black;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 50%;
+  flex-direction: row;
+  justify-content: space-between;
+
+  @media (max-width: 550px) {
+    width: 92%;
+  }
+}

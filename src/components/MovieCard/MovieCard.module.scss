@@ -1,0 +1,33 @@
+$background-color-button: #04d7ff;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.image {
+  width: 100%;
+}
+
+.movieName {
+  font-size: 20px;
+  flex: 1 1;
+}
+
+.button {
+  background-color: $background-color-button; /* Green */
+  border: 1px solid black;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -1,0 +1,35 @@
+.footer {
+  height: 200px;
+  padding: 25px;
+  background-color: #23201f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.support {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  gap: 5px;
+}
+
+.contactUs {
+  font-size: 20px;
+}
+
+.text {
+  color: white;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.logo {
+  margin-top: 3px;
+}
